@@ -1,0 +1,491 @@
+body,
+div,
+header,
+footer,
+nav,
+h1,
+h2,
+h3,
+p,
+article,
+a {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Index */
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #f4f2e3;
+}
+
+header {
+    background-color: #ff4747;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif, serif;
+    color: antiquewhite;
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Quicksand', sans-serif, serif;
+    color: antiquewhite;
+}
+
+
+/* nav bar */
+
+nav {
+    background-color: #ff9e9e;
+    border-bottom: solid black 2px;
+    text-align: center;
+    padding: 14px;
+}
+
+.Home,
+.Blog,
+.Recipes,
+.Videos,
+.AboutMe,
+.ContactMe {
+    display: inline;
+    font-size: 24px;
+    padding: 20px 4%;
+    font-family: 'Quicksand', sans-serif, serif;
+    font-weight: bold;
+}
+
+.Home a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.Blog a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.Recipes a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.Videos a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.AboutMe a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.ContactMe a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+
+/* image slideshow */
+
+.slider {
+    max-width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide1 {
+    background: url(images/Salmon.jpg)no-repeat center;
+    background-size: cover;
+    animation: fade 8s infinite;
+    -webkit-animation: fade 8s infinite;
+}
+
+.slide2 {
+    background: url(images/BabyRibs.jpg)no-repeat center;
+    background-size: cover;
+    animation: fade2 8s infinite;
+    -webkit-animation: fade2 8s infinite;
+}
+
+.slide3 {
+    background: url(images/Chillicrab.jpg)no-repeat center;
+    background-size: cover;
+    animation: fade3 8s infinite;
+    -webkit-animation: fade3 8s infinite;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1
+    }
+    33.333% {
+        opacity: 0
+    }
+    66.666% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0
+    }
+    33.333% {
+        opacity: 1
+    }
+    66.666% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes fade3 {
+    0% {
+        opacity: 0
+    }
+    33.333% {
+        opacity: 0
+    }
+    66.666% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+article {
+    background-color: #f4f2e3;
+}
+
+.Welcome {
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif, serif;
+    margin: 20px;
+}
+
+.content {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+}
+
+#instagramlink {
+    text-decoration: none;
+}
+
+.os {
+    float: left;
+    margin: 2px;
+    margin-right: 25px;
+}
+
+.LatestBlogPost {
+    font-size: 50px;
+    margin: 10px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif, serif;
+    clear: both;
+    text-decoration: underline;
+}
+
+.LatestBlogPostTitle {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif, serif;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+
+.BeefSteakwSoup {
+    float: left;
+    width: 800px;
+    margin-right: 25px;
+}
+
+.LBPText {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+}
+
+.BeefSteak {
+    width: 1000px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.CutBeef {
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.DateofLBP {
+    margin-left: 20px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif, serif;
+    font-size: 26px;
+}
+
+.MoreBlogPosts a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif, serif;
+}
+
+.MoreBlogPosts a:hover {
+    color: red;
+}
+
+.MoreBlogPosts {
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+    background-color: whitesmoke;
+    padding: 5px;
+    font-size: 26px;
+    clear: both;
+    font-family: 'Quicksand', sans-serif, serif;
+    background-color: #f4f2e3;
+}
+
+
+/*AboutMe*/
+
+.Aboutme {
+    font-family: 'Montserrat', sans-serif, serif;
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.Me {
+    Width: 670px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+.AboutmeContent {
+    font-family: 'Quicksand', sans-serif, serif;
+    font-size: 24px;
+}
+
+.Fries {
+    width: 650px;
+    float: right;
+    margin-top: 60px;
+    margin-left: 2px;
+}
+
+.AboutmeContent2 {
+    font-family: 'Quicksand', sans-serif, serif;
+    font-size: 24px;
+    margin-top: 120px;
+    margin-left: 15px;
+}
+
+.Hobby {
+    width: 650px;
+    margin-top: 60px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.AboutmeContent3 {
+    font-family: 'Quicksand', sans-serif, serif;
+    font-size: 24px;
+    margin-top: 135px;
+    margin-right: 5px;
+}
+
+
+/*Blog*/
+
+.BlogHeader {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif, serif;
+    clear: both;
+}
+
+.Blogpost1 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif, serif;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+}
+
+.Date1 {
+    margin-left: 20px;
+    margin: 20px;
+    font-family: 'Montserrat', 'sans-serif', serif;
+    font-size: 26px;
+}
+
+.Blogpost1content {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.Blogpost2 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif, serif;
+    text-align: center;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.Ramen {
+    float: left;
+    width: 800px;
+    margin-right: 25px;
+}
+
+.Date2 {
+    margin-left: 20px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif, serif;
+    font-size: 26px;
+}
+
+.Blogpost2content {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.Blogpost3 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif, serif;
+    text-align: center;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.BakedSalmonZoom {
+    float: left;
+    width: 800px;
+    margin-right: 25px;
+}
+
+.Date3 {
+    margin-left: 20px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif, serif;
+    font-size: 26px;
+}
+
+.Blogpost3content {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.BakedSalmonwSoup {
+    width: 1000px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.Chawanmushi {
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 360px;
+}
+
+
+/* Contact Me */
+
+.ContactMeHeader {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif, serif;
+    clear: both;
+}
+
+.ContactMecontent {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+}
+
+.FAQHeader {
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif, serif;
+}
+
+.FAQ {
+    font-size: 26px;
+    font-family: 'Quicksand', sans-serif, serif;
+    margin-bottom: 50px;
+}
+
+#facebooklink {
+    text-decoration: none;
+}
